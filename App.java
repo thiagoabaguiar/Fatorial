@@ -13,13 +13,11 @@ public class App {
             factorial = input.nextInt();
             result = factorial;
 
-            for (int i = (factorial -1); i <= 1; i--){
+            for (int i = (factorial -1); i >= 1; i--){
 
                 result = result * i;
-                System.out.println("resultado: " + result);
-                System.out.println("contador: " + i);
 
-            };       
+            };  
 
             System.out.println("O resultado final é " + result);
 
